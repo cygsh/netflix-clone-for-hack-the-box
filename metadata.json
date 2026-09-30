@@ -2,5 +2,7 @@
   "name": "Netflix Stream",
   "description": "Authentic streaming platform experience featuring public landing billboard with trending shelf, membership registration and plan selection, secure sign-in, and the full cinematic browsing interface.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
