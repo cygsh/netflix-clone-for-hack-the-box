@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Stream - Watch TV Shows Online, Watch Movies Online</title>
+    <meta name="description" content="Authentic streaming platform experience featuring public landing billboard with trending shelf, membership registration and plan selection, secure sign-in, and the full cinematic browsing interface." />
+    <meta property="og:title" content="Netflix Stream - Watch TV Shows Online, Watch Movies Online" />
+    <meta property="og:description" content="Authentic streaming platform experience featuring public landing billboard with trending shelf, membership registration and plan selection, secure sign-in, and the full cinematic browsing interface." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <style>
+      .text-stroke-netflix {
+        -webkit-text-stroke: 4px #595959;
+        color: #000000;
+      }
+      .curve-container {
+        position: relative;
+        overflow: hidden;
+      }
+      .curve-arc {
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 140%;
+        height: 90px;
+        border-top: 4px solid #e50914;
+        border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+        background: radial-gradient(50% 500% at 50% -10%, rgba(229, 9, 20, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
+        pointer-events: none;
+      }
+      .scrollbar-none::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-none {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white antialiased selection:bg-[#e50914] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
